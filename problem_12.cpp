@@ -29,36 +29,7 @@ using namespace std;
 
 
 
-// Brute force method to determimne the 
-// number of divisors
-int divisorCount(int num) {
-    int divisorCount = 1; // the number itself;
-
-    for (int i = 1; i < num / 2 + 3; ++i) {
-        if (num % i == 0) {
-            ++divisorCount;
-        }
-    }
-
-    return divisorCount;
-}
-
 int main() {
-    int currNat = 1;
-    int currTri = 1;
-
-    for (int i = 0; i < 17907120; ++i) {
-        currNat += 1;
-        currTri += currNat;
-    }
-
-    while (divisorCount(currTri) <= 500) {
-        for (int i = 1; i <= 200; ++i) {
-            currNat += 1;
-            currTri += currNat;
-        }
-    }
-
-    cout << currTri << endl;
+    
 }
 
