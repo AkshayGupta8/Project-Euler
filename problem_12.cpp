@@ -28,6 +28,9 @@ using namespace std;
 // What is the value of the first triangle number to have over five hundred divisors?
 
 
+
+// Brute force method to determimne the 
+// number of divisors
 int divisorCount(int num) {
     int divisorCount = 1; // the number itself;
 
@@ -43,6 +46,11 @@ int divisorCount(int num) {
 int main() {
     int currNat = 1;
     int currTri = 1;
+
+    for (int i = 0; i < 17907120; ++i) {
+        currNat += 1;
+        currTri += currNat;
+    }
 
     while (divisorCount(currTri) <= 500) {
         for (int i = 1; i <= 200; ++i) {
