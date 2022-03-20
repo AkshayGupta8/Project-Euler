@@ -5,6 +5,7 @@
         "unordered_set": "cpp",
         "queue": "cpp",
         "unordered_map": "cpp",
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "sstream": "cpp"
     }
 }
