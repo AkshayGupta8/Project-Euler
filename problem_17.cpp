@@ -23,7 +23,7 @@ bool isSubstring(string s, string t) {
     }
     return s_idx == s.size();
 }
-
+//
 bool isRotation(string s1, string s2) {
     if (s1.size() != s2.size()) {
         return false;
