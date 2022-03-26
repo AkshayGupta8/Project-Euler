@@ -6,6 +6,8 @@
         "queue": "cpp",
         "unordered_map": "cpp",
         "iostream": "cpp",
-        "sstream": "cpp"
+        "sstream": "cpp",
+        "*.tcc": "cpp",
+        "string": "cpp"
     }
 }
