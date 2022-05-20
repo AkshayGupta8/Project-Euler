@@ -6,3 +6,4 @@ g++ -std=c++17 -Wall   -pedantic   -O3 -DNDEBUG $fileO -o test
 time ./test
 rm test
 rm $fileO
+# hellooo
